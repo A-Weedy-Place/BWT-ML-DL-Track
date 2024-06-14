@@ -39,4 +39,17 @@
 * Now check the log
 
                 git log
-* 
+* Branch are a separate version of the prject where doing changings do not effect the orignal project
+
+                git branch idk-sm-branch-name
+* we need to move to that branch now so:
+
+                git checkout idk-sm-branch-name
+* Make changes, "add" and then "commit" it
+* we can go back to master and make another branch were we fix some other issue
+* Now we need to merge the branch with master so first go to master
+
+                git merge emergency-fix
+* now delete the branch emergency-fix since there is no longer any use
+
+                git branch -d emergency-fix
