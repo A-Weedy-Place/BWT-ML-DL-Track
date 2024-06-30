@@ -43,3 +43,5 @@ if __name__ == "__main__":
     # Writing user input
     user_input = input("Enter some text to write to 'uwu.txt': ")
     write_file('uwu.txt', user_input)
+
+#the functions names are pretty self evident
